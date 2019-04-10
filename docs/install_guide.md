@@ -297,7 +297,7 @@ command prompt on the Primary host of Tableau Server:
 
 The Tableau Server repository database contains information VizAlerts
 needs to function. Grant it access by enabling the [readonly
-user](http://onlinehelp.tableau.com/current/server/en-us/adminview_postgres_access.htm):
+user](https://onlinehelp.tableau.com/current/server/en-us/perf_collect_server_repo.htm):
 
 &nbsp;&nbsp;&nbsp;&nbsp;<strong>For versions 10.5 and higher:</strong><br />
 &nbsp;&nbsp;&nbsp;&nbsp;tsm data-access repository-access enable --repository-username readonly --repository-password &lt;YOUR PASSWORD&gt;
